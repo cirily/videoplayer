@@ -6,13 +6,13 @@ An open source video player built with Qt/QML and libmpv.
 
 [haruna](https://github.com/g-fb/haruna)
 
-## Dependencies
+## Dependencies (For Ubuntu/Debian)
 
 ```bash
 sudo apt install extra-cmake-modules qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev libmpv-dev
 ```
 
-# Build and Install
+## Build and Install
 
 ```
 git clone https://github.com/cirily/videoplayer.git
