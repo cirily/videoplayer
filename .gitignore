@@ -124,4 +124,11 @@ cmake-build-debug*
 .clang-format
 .vscode
 
-
+debian/*.debhelper
+debian/files
+debian/pisces-videoplayer
+debian/*.changes
+debian/*.buildinfo
+debian/*.substvars
+debian/*.log
+obj-x86_64-linux-gnu/

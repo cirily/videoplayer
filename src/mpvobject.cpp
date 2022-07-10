@@ -667,7 +667,7 @@ double MpvObject::loadTimePosition()
     }
 
 //    auto hash = md5(getProperty("path").toString());
-//    QSettings settings("cutefishos", "cutefish-videoplayer");
+//    QSettings settings("piscesys", "pisces-videoplayer");
 //    auto configPath = QFileInfo(settings.fileName()).absoluteDir();
 //    qDebug() << configPath;
 //    KConfig *config = new KConfig(configPath.append("/watch-later/").append(hash));

@@ -40,7 +40,7 @@ bool MediaPlayer2::HasTrackList() const
 
 QString MediaPlayer2::Identity() const
 {
-    return QStringLiteral("CutefishPlayer");
+    return QStringLiteral("PiscesPlayer");
 }
 
 QString MediaPlayer2::DesktopEntry() const

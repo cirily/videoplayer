@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2021 Reion Wong <reion@cutefishos.com>
+ * SPDX-FileCopyrightText: 2021 Reion Wong <reion@piscesys.com>
  * SPDX-FileCopyrightText: 2020 George Florea Bănuș <georgefb899@gmail.com>
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
@@ -89,7 +89,7 @@ FishUI.Window {
             anchors.centerIn: parent
             width: 128
             height: 128
-            source: "qrc:/images/cutefish-videoplayer.svg"
+            source: "qrc:/images/pisces-videoplayer.svg"
             sourceSize: Qt.size(width, height)
             visible: playList.playlistView.count === 0
         }

@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: 2020 George Florea Bănuș <georgefb899@gmail.com>
- * SPDX-FileCopyrightText: 2021 Reion Wong <aj@cutefishos.com>
+ * SPDX-FileCopyrightText: 2021 Reion Wong <aj@piscesys.com>
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  */

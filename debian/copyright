@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: cutefish-videoplayer
-Source: cutefishos.com
+Upstream-Name: pisces-videoplayer
+Source: piscesys.com
 
 Files: *
-Copyright: 2021 CutefishOS <support@cutefishos.com>
+Copyright: 2021 Piscesys <support@piscesys.com>
 License: GPL-3+
 
 License: GPL-3.0+

@@ -1,12 +1,5 @@
-cutefish-videoplayer (0.5-3) unstable; urgency=high
+pisces-videoplayer (0.9) misaka; urgency=medium
 
-  * Fix some issues
+  * Initial Release for Pisces.
 
- -- CutefishOS <support@cutefishos.com>  Tue, 05 Oct 2021 20:16:32 +0800
-
-
-cutefish-videoplayer (0.5-2) UNRELEASED; urgency=high
-
-  * Initial release CutefishOS <support@cutefishos.com>
-
- -- CutefishOS <support@cutefishos.com>  Thu, 16 Sep 2021 03:52:45 +0800
+ -- Piscesys Packaging Team <support@piscesys.com> Sun, 10 Jul 2022 15:15:15 +0800

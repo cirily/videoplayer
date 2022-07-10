@@ -124,7 +124,7 @@ QVariantMap MediaPlayer2Player::Metadata()
     metadata.insert(QStringLiteral("mpris:length"),
                     m_mpv->getProperty("duration").toDouble() * 1000 * 1000);
     metadata.insert(QStringLiteral("mpris:trackid"),
-                    QVariant::fromValue<QDBusObjectPath>(QDBusObjectPath("/com/cutefish/videoplayer")));
+                    QVariant::fromValue<QDBusObjectPath>(QDBusObjectPath("/com/pisces/videoplayer")));
     metadata.insert(QStringLiteral("xesam:title"),
                     m_mpv->getProperty("filename").toString());
     QUrl url(m_mpv->getProperty("path").toString());

@@ -7,7 +7,7 @@
         <file>qml/PlayList.qml</file>
         <file>qml/PlayListItem.qml</file>
         <file>qml/Actions.qml</file>
-        <file>images/cutefish-videoplayer.svg</file>
+        <file>images/pisces-videoplayer.svg</file>
         <file>images/light/media-playback-pause-symbolic.svg</file>
         <file>images/light/media-playback-start-symbolic.svg</file>
         <file>images/light/media-skip-backward-symbolic.svg</file>

@@ -28,6 +28,6 @@ void LockManager::setInhibitionOff()
 void LockManager::setInhibitionOn()
 {
     m_cookie = m_iface->Inhibit(
-                QStringLiteral("Cutefish Video Player"),
+                QStringLiteral("Pisces Video Player"),
                 "Playing video.");
 }

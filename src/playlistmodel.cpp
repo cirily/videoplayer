@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2021 Reion Wong <reion@cutefishos.com>
+ * SPDX-FileCopyrightText: 2021 Reion Wong <reion@piscesys.com>
  * SPDX-FileCopyrightText: 2020 George Florea Bănuș <georgefb899@gmail.com>
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
@@ -16,7 +16,7 @@
 
 PlayListModel::PlayListModel(QObject *parent)
     : QAbstractListModel(parent)
-    , m_settings("cutefishos", "cutefish-videoplayer")
+    , m_settings("piscesys", "pisces-videoplayer")
 {
     // Reion: init list.
     QStringList list = m_settings.value("List").toString().split(',');

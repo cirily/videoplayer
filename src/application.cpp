@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2021 Reion Wong <reion@cutefishos.com>
+ * SPDX-FileCopyrightText: 2021 Reion Wong <reion@piscesys.com>
  * SPDX-FileCopyrightText: 2020 George Florea Bănuș <georgefb899@gmail.com>
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
@@ -46,11 +46,11 @@ static QApplication *createApplication(int &argc, char **argv, const QString &ap
 {
     QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
-    QApplication::setOrganizationName("cutefishos");
+    QApplication::setOrganizationName("piscesys");
     QApplication::setApplicationName(applicationName);
-    QApplication::setOrganizationDomain("cutefishos.com");
+    QApplication::setOrganizationDomain("piscesys.com");
     QApplication::setApplicationDisplayName("Video Player");
-    QApplication::setWindowIcon(QIcon::fromTheme("cutefish-videoplayer"));
+    QApplication::setWindowIcon(QIcon::fromTheme("pisces-videoplayer"));
     QApplication *app = new QApplication(argc, argv);
     return app;
 }
@@ -59,7 +59,7 @@ Application::Application(int &argc, char **argv, const QString &applicationName)
     : m_app(createApplication(argc, argv, applicationName))
 {
     // register mpris dbus service
-    QString mspris2Name(QStringLiteral("org.mpris.MediaPlayer2.cutefish.videoplayer"));
+    QString mspris2Name(QStringLiteral("org.mpris.MediaPlayer2.pisces.videoplayer"));
     QDBusConnection::sessionBus().registerService(mspris2Name);
     QDBusConnection::sessionBus().registerObject(QStringLiteral("/org/mpris/MediaPlayer2"), this, QDBusConnection::ExportAdaptors);
     // org.mpris.MediaPlayer2 mpris2 interface
@@ -71,7 +71,7 @@ Application::Application(int &argc, char **argv, const QString &applicationName)
 
     // Translations
     QLocale locale;
-    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-videoplayer/translations/").arg(locale.name());
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/pisces-videoplayer/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
         QTranslator *translator = new QTranslator(QApplication::instance());
         if (translator->load(qmFilePath)) {
